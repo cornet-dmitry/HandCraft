@@ -1,0 +1,30 @@
+{% extends 'base_dev_logged.html' %}
+
+{% block body %}
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Категории товаров</h1>
+        <h3 class="fs-5 text-muted">Фигурки</h3>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+        {% for elem in data %}
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">{{ elem.title }}</h4>
+                            <!-- <===================================================================== -->
+                        </div>
+                        <div class="card-body">
+                            <img src="" alt="Фото товара">
+                            <p>{{ elem.text }}</p>
+                            <p><h1 class="card-title pricing-card-title">{{ elem.price }}<small class="text-muted fw-light"> рублей</small></h1></p>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+                        </div>
+                    </div>
+                </div>
+        {% endfor %}
+
+    </div>
+
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1>{{ message[0] }}</h1>
+<br><br>
+<h5>Причина ошибки: {{ message[1] }}</h5>
+<hr>
+<p>{{ message[-1] }}</p>
+{% endblock %}

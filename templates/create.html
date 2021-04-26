@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://getbootstrap.com/docs/5.0/examples/sign-in/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Добавление товара для сайта HandCraft</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="signin.css">
+
+
+    <body class="text-center container">
+        <main class="form-signin">
+            <form action="/create" method="post" enctype="multipart/form-data">
+                <h1 class="h3 mb-3 fw-normal mt-2 mt-md-10">Добавить товар</h1>
+                <div class="form-floating">
+                    <label class="float-left mt-2 mt-md-2">Название товара</label>
+                    <input type="text" class="form-control" placeholder="Название товара" name="title" id="title">
+                </div>
+                <div class="form-floating">
+                    <label class="float-left mt-2 mt-md-2">Описание товара</label>
+                    <input type="text" class="form-control" placeholder="Описание товара" name="text" id="text">
+                </div>
+                <div class="form-floating">
+                    <label class="float-left mt-2 mt-md-2">Цена</label>
+                    <input type="number" class="form-control" placeholder="Цена" name="price" id="price">
+                </div>
+                <div>
+                    <input class="mt-2 mt-md-2 float-left form-control" type="file" name="image" id="image">
+                </div>
+                <div>
+                    <button class="w-100 btn btn-lg btn-primary mt-2 mt-md-2" type="submit">Добавить</button>
+                </div>
+            </form>
+        </main>
+        <a  href="/index_dev_logged" class="Back">Назад</a>
+
+    </body>
+</html>
