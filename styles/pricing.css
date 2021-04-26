@@ -1,0 +1,42 @@
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+
+body {
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+}
+
+.AhahahahGreen {
+    border-color: #21DA00; /* Цвет границы */
+    border-style: solid; /* Стиль границы */
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 9px;
+}
+
+.Ahahahah {
+    border-color: #0D73F8; /* Цвет границы */
+    border-style: solid; /* Стиль границы */
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 9px;
+}
+
+
+
+.fs-10 {
+	font-size: 90px;
+}
+
+.fs-smaller {
+	font-size: 40px;
+}
+
+.fs-medium {
+	font-size: 30px;
+	color:grey;
+}
+
